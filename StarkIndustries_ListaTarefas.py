@@ -4,7 +4,6 @@ from tkinter import messagebox
 import sqlite3
 from datetime import datetime
 
-
 class Tarefa:
     def __init__(self, descricao, data_inicio, data_fim, status):
         self.descricao = descricao
